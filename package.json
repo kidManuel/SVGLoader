@@ -1,0 +1,34 @@
+{
+  "name": "svgloader",
+  "version": "1.0.0",
+  "description": "Lightweight SVG XML injector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "parcel --open src/examples/index.html",
+    "build": "parcel build -d docs src/examples/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kidManuel/SVGLoader.git"
+  },
+  "keywords": [
+    "SVG",
+    "ES6",
+    "XML",
+    "Experimental"
+  ],
+  "author": "kidManuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kidManuel/SVGLoader/issues"
+  },
+  "homepage": "https://github.com/kidManuel/SVGLoader#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 Firefox versions"
+  ]
+}
